@@ -22,3 +22,15 @@ GyroScope maintains orientation along a axis so that the orientation is unaffect
 
 Accelerometer measures the directional movement of a device but will not be able to resolve its lateral orientation or tilt during that movement accurately unless a gyro is there to fill in that info.
 With an accelerometer you can either get a really "noisy" info output that is responsive, or you can get a "clean" output that's sluggish. But when you combine the 3-axis accelerometer with a 3-axis gyro, you get an output that is both clean and responsive in the same time.
+
+Train and test data were seperated:-
+
+   The readings from 70% of the volunteers(21 people) were taken as trianing data and remaining 30% volunteers recordings(9 people) were   taken for test data
+   
+DEPENDENCIES:-
+
+  numpy
+  pandas
+  matplotlib
+  seaborn
+  sklearn
